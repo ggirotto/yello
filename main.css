@@ -36,6 +36,7 @@ html, body {
 
     margin: 0 auto;
     display: block;
+    box-sizing: border-box;
 
 }
 
@@ -120,11 +121,43 @@ html, body {
 
 }
 
+.banners {
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+
+}
+
+.banners a {
+
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 100%;
+    height: 100%;
+
+}
+
 .googlePlayBanner {
 
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    width: 50%;
+    width: 45%;
+    max-width: 256px;
+
+    box-sizing: border-box;
+
+}
+
+.appStoreBanner {
+
+    display: inline-block;
+    margin: 0 auto;
+    width: 45%;
+    max-width: 256px;
+
+    box-sizing: border-box;
+    padding-bottom: 9px;
 
 }
 
@@ -181,6 +214,12 @@ section .wrapper {
 
 }
 
+.download {
+
+    padding-bottom: 75px;
+
+}
+
 .download h1 {
 
     margin: 0px;
@@ -192,14 +231,6 @@ section .wrapper {
     color: #212121;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
-
-}
-
-.download .googlePlayBanner {
-
-    width: 20%;
-    min-width: 256px;
-    padding-bottom: 50px;
 
 }
 
